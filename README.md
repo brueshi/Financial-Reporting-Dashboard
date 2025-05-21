@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a complete data pipeline for financial analytics in a SaaS business model, designed to demonstrate the skills required for an Analytics Engineer role at Automattic. The project simulates the entire data lifecycle from synthetic data generation to ETL processing, data modeling, and visualization.
+This repository contains a complete data pipeline for financial analytics in a SaaS business model, designed to demonstrate the skills required for an Analytics Engineer role at Automattic. The project simulates the entire data lifecycle from synthetic data generation to ETL processing, data modeling, and visualization. Claude Sonnet 3.7 and Grok 3 were used throughout the development process.
 
 As Automattic's Analytics Engineer for Finance, this pipeline would support key responsibilities including:
 - Building reliable ETL processes for financial data
