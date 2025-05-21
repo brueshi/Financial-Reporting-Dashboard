@@ -1,0 +1,35 @@
+schema = [
+    # Primary key and required fields
+    bigquery.SchemaField("transaction_id", "STRING", mode="REQUIRED", 
+                         description="Unique transaction identifier for financial events"),
+    bigquery.SchemaField("timestamp", "TIMESTAMP", mode="REQUIRED", 
+                         description="Date and time when the transaction occurred (used for partitioning)"),
+    bigquery.SchemaField("customer_id", "STRING", mode="REQUIRED", 
+                         description="Unique identifier for customers or accounts"),
+    bigquery.SchemaField("amount", "FLOAT", mode="REQUIRED", 
+                         description="Monetary value of the transaction (positive for revenue, negative for expenses)"),
+    
+    # Categorical fields for dimensions and aggregations
+    bigquery.SchemaField("transaction_type", "STRING", mode="REQUIRED",
+                         description="Type of transaction (Subscription, Refund, One-Time Purchase, Upgrade, Downgrade, Add-on)"),
+    bigquery.SchemaField("subscription_plan", "STRING", 
+                         description="SaaS plan associated with the transaction (Free, Basic, Pro, Enterprise, Custom)"),
+    bigquery.SchemaField("category", "STRING", mode="REQUIRED",
+                         description="Financial category for accounting (Revenue, Marketing Cost, Operational Expense, etc.)"),
+    bigquery.SchemaField("region", "STRING", 
+                         description="Geographic region of the customer (US, EU, APAC, LATAM, MEA)"),
+    bigquery.SchemaField("payment_status", "STRING", mode="REQUIRED",
+                         description="Status of the payment transaction (Completed, Pending, Failed, Refunded, Disputed)"),
+    bigquery.SchemaField("customer_type", "STRING", 
+                         description="Business segment of the customer (B2C, SMB, Mid-Market, Enterprise)"),
+    
+    # Additional fields for financial analysis
+    bigquery.SchemaField("is_recurring", "BOOLEAN", 
+                         description="Flag indicating if the transaction is part of a recurring revenue stream"),
+    bigquery.SchemaField("fiscal_period", "STRING", 
+                         description="Fiscal period (e.g., Q1 2023) for financial reporting alignment"),
+    bigquery.SchemaField("created_at", "TIMESTAMP", 
+                         description="Timestamp when the record was created in the system"),
+    bigquery.SchemaField("updated_at", "TIMESTAMP", 
+                         description="Timestamp when the record was last updated")
+]
