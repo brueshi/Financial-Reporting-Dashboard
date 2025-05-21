@@ -23,7 +23,7 @@ As Automattic's Analytics Engineer for Finance, this pipeline would support key 
 ```
 financial-analytics-pipeline/
 ├── data_generator/
-│   └── generate_synthetic_data.py        # Script to generate SaaS financial data
+│   └── Financial Data Generator.py        # Script to generate SaaS financial data
 ├── bigquery/
 │   ├── schema/
 │   │   └── transactions_schema.json      # Schema definition for the main table
