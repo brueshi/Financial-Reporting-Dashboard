@@ -28,14 +28,14 @@ financial-analytics-pipeline/
 │   ├── schema/
 │   │   └── transactions_schema.json      # Schema definition for the main table
 │   ├── etl/
-│   │   └── load_data_to_bigquery.py      # ETL script with error handling and logging
-│   └── queries/
-│       ├── monthly_metrics.sql           # MRR calculation and active customers
-│       ├── data_quality_check.sql        # Data validation and quality monitoring
+│       └── load_data_to_bigquery.py      # ETL script with error handling and logging
+├── sql/
+│       └── monthly metrics.sql           # MRR calculation and active customers
+│       ├── data quality_check.sql        # Data validation and quality monitoring
 │       ├── anomaly_detection.sql         # ML model for detecting payment anomalies
-│       ├── retention_analysis.sql        # Customer retention by cohort
-│       ├── revenue_recognition.sql       # Revenue recognition by month and plan
-│       └── customer_segmentation.sql     # Customer analysis by segment and region
+│       ├── retention analysis.sql        # Customer retention by cohort
+│       ├── revenue recognition.sql       # Revenue recognition by month and plan
+│       └── customer segmentation.sql     # Customer analysis by segment and region
 ├── documentation/
 │   ├── data_dictionary.md                # Comprehensive data dictionary
 │   ├── metrics_definitions.md            # SaaS metrics definitions and calculations
