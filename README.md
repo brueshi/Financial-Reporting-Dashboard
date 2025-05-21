@@ -74,7 +74,10 @@ The SQL queries demonstrate key financial analytics capabilities:
 
 ### 4. Dashboard Visualization
 
-The Looker dashboard (link provided separately) includes:
+![Financial Analysis Dashboard](https://github.com/user-attachments/assets/da1ae212-c5ea-4604-a392-780aa3d6c7bb)
+
+
+The Looker dashboard (link available upon request) includes:
 - Executive summary with key SaaS metrics
 - Trend analysis for financial performance
 - Customer segment analysis
