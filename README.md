@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository contains a complete data pipeline for financial analytics in a SaaS business model, designed to demonstrate the skills required for an Analytics Engineer role at Automattic. The project simulates the entire data lifecycle from synthetic data generation to ETL processing, data modeling, and visualization. Claude Sonnet 3.7 and Grok 3 were used throughout the development process.
+This repository contains a complete data pipeline for financial analytics in a SaaS business model, designed to demonstrate the skills in GCP, Python, and SQL. The project simulates the entire data lifecycle from synthetic data generation to ETL processing, data modeling, and visualization. Claude Sonnet 3.7 and Grok 3 were used throughout the development process.
 
-As Automattic's Analytics Engineer for Finance, this pipeline would support key responsibilities including:
+As a Data Engineer particularly for SaaS business models, this project includes:
 - Building reliable ETL processes for financial data
 - Designing metrics to monitor business performance
 - Creating high-quality analyses and dashboards to communicate insights
@@ -131,7 +131,7 @@ WHERE m.centroid_id = 1;
 
 ## Business Impact
 
-This analytics pipeline would support key business functions at Automattic:
+This analytics pipeline would support key business functions:
 
 1. **Financial Planning & Analysis**:
    - Accurate revenue forecasting
@@ -169,6 +169,6 @@ With additional time, these enhancements would be valuable:
 
 ## About This Project
 
-This project was developed to demonstrate financial analytics engineering capabilities for a SaaS business model. It addresses key requirements from the Analytics Engineer role at Automattic, including SQL proficiency, programming skills, data visualization expertise, and experience with financial data and large datasets.
+This project was developed to demonstrate financial analytics engineering capabilities for a SaaS business model. It addresses key requirements for a Data Engineering role, including SQL proficiency, programming skills, data visualization expertise, and experience with financial data and large datasets.
 
 The implementation demonstrates how financial data can be transformed into actionable insights to support decision-making in a distributed, global company with diverse business models and customer segments.
